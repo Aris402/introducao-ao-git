@@ -11,6 +11,12 @@
 - cd .. - Volta para a pasta que você estava anteriormente;
 - git config --global user.email "seuemail@email.com" - Define um email para seu git de forma global;
 - git config --global user.name seunickname - Define um nickname para seu git de forma global;
+- git add [nome do arquivo ou " * " para adicionar tudo] - Informa que algo foi adicionado ou mudou no repositório;
+- git commit -m "Comentário" - Salva as alterações do repositório com um comentário;
+- git config --list - Lista todas as informações sobre o repositório atual;
+- git status - Apresenta o estado atual do repositório e se algo precisa ser "commitado";
+- git config --global --unset user.algo - Com a palavra-chave escolhida após o ponto como name, por exemplo, o git reseta o que havia sido definido antes;
+- seta para cima - Reescreve o último comando digitado e confirmado;
 
 ### Observações
 
