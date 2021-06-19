@@ -18,11 +18,16 @@
 - git config --global --unset user.algo - Com a palavra-chave escolhida após o ponto como name, por exemplo, o git reseta o que havia sido definido antes;
 - seta para cima - Reescreve o último comando digitado e confirmado;
 - git add --all - Commita todas as mudanças, até mesmo exclusões ou renomeações de arquivos;
+- git remote add origin link-do-repositório;
+- git branch -M main;
+- git push -u origin main;
 
 ### Observações
 
 **1 -** A pasta .git após criar o repositório com git init é uma pasta oculta. Para ver as pastas ocultas em seu explorador de arquivos, basta clicar em _**Exibir > Itens ocultos**_;
 
-**2 -** Um arquivo Markdown utiliza formatação baseada em HTML. Por exemplo, usar uma única hashtag antes de um texto transforma ele em um texto de tag <h1> (E assim sucessivamente até o h6). Usar dois " * " antes e depois de textos os transforma em negrito. Usar " _ " no começo e fim dos textos transforma-os em itálico. E por aí vai, são diversos comandos;
+**2 -** Um arquivo Markdown utiliza formatação baseada em HTML. Por exemplo, usar uma única hashtag antes de um texto transforma ele em um texto de tag h1 (E assim sucessivamente até o h6). Usar dois " * " antes e depois de textos os transforma em negrito. Usar " _ " no começo e fim dos textos transforma-os em itálico. E por aí vai, são diversos comandos;
 
 **3 - ** Arquivos README.md geralmente vêm em repositórios explicando a história e os motivos pela criação deles;
+
+**4 -** Quando der o erro "Another Git process seems to be running in this repository", basta excluir o arquivo **_index.lock_** da pasta **_.git-**;
