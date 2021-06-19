@@ -18,9 +18,6 @@
 - git config --global --unset user.algo - Com a palavra-chave escolhida após o ponto como name, por exemplo, o git reseta o que havia sido definido antes;
 - seta para cima - Reescreve o último comando digitado e confirmado;
 - git add --all - Commita todas as mudanças, até mesmo exclusões ou renomeações de arquivos;
-- git remote add origin link-do-repositório;
-- git branch -M main;
-- git push -u origin main;
 
 ### Observações
 
@@ -31,3 +28,16 @@
 **3 - ** Arquivos README.md geralmente vêm em repositórios explicando a história e os motivos pela criação deles;
 
 **4 -** Quando der o erro "Another Git process seems to be running in this repository", basta excluir o arquivo **_index.lock_** da pasta **_.git-**;
+
+### Passo a passo para fazer Push de um repositório para o Github
+
+1. Renomeie o arquivo **_master_** para **_main_** indo na sua pasta .git > refs > head; 
+
+2. Escreva no terminal git remote add origin link-do-repositório;
+
+3. Escreva no terminal git branch -M main;
+
+4. Escreva no terminal git push -u origin main;
+
+   
+
