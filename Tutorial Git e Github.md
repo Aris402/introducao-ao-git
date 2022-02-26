@@ -6,7 +6,6 @@
 - ls - Listagem de tudo que está dentro da pasta atual;
 - cd [nome-da-pasta] - Vai para a pasta destinada;
 - mkdir [nome-da-pasta] - Cria uma pasta dentro do diretório;
-- mussarela fatiada 100 g;
 - ls -a - Mostra itens ocultos;
 - cd .. - Volta para a pasta que você estava anteriormente;
 - git config --global user.email "seuemail@email.com" - Define um email para seu git de forma global;
