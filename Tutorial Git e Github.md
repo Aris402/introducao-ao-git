@@ -38,5 +38,6 @@
 
 4. Escreva no terminal git push -u origin main;
 
-   
+### Como ver o histórico de ações
 
+1. Digite gitk --all $( git fsck --no-reflog | awk '/dangling commit/ {print $3}' ) no terminal e aperte Enter
